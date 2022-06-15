@@ -25,7 +25,7 @@ if(isset($_POST["name"])){
     $email = $_POST["email"];
     $phone = $_POST["phone"];
     $other = $_POST["other"];
-   // $sql = "INSERT INTO `trip`.`trip` (`name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc', current_timestamp());";
+   
   
     $sql = "INSERT INTO `trip` . `iit1` (`name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$other',  current_timestamp());";
 
